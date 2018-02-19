@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 530px) {
+	li {
+	  display: block;
+	  position: relative;
+	  margin: 2em;
+	  min-height: 240px;
+	  min-width: 480px;
+	}
+
+	.title {
+	  width: calc(100% - 220px);
+	  padding: 5px 10px;
+	  color: white;
+	  background-color: #867676;
+	}
+
+	.language, .author {
+	  display: block;
+	  width: calc(100% - 200px);
+	  margin: 5px 10px;
+	}
+
+	.cover {
+	  width: 180px;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	}
+}
+
+@media screen and (max-width: 529px) {
+	li {
+	  display: block;
+	  background-color: #EEEEEE;
+	  margin: 2em;
+	  text-align: center;
+	}
+	
+	img {
+	  width: 60%;
+	  padding: 1rem 0;
+	}
+	
+	.title {
+	  padding: 0.4rem;
+	  color: white;
+	  background-color: #867676;
+	}
+	
+	.language, .author {
+	  padding-top: 0.5rem;
+	}
+}
