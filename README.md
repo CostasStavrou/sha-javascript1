@@ -38,42 +38,42 @@ would be the new value of `x`?
 **Answers**
 
 1.
-```js
-let x = 34;
-```
+  ```js
+  let x = 34;
+  ```
 
 2.
-```js
-alert(Math.round(7.25));
-```
+  ```js
+  alert(Math.round(7.25));
+  ```
 
 3.
-```js
-let colors = ["red", "green", "blue"];
-```
+  ```js
+  let colors = ["red", "green", "blue"];
+  ```
 
 4.
-```js
-let colors = ["red", "green", "blue"];
-alert(colors.length);
-```
+  ```js
+  let colors = ["red", "green", "blue"];
+  alert(colors.length);
+  ```
 
 5.
-```js
-let x = 10;
-let y = "EcmaScript";
+  ```js
+  let x = 10;
+  let y = "EcmaScript";
 
-if (typeof(x) === typeof(y)) {
-  console.log("SAME TYPE");
-}
-```
+  if (typeof(x) === typeof(y)) {
+    console.log("SAME TYPE");
+  }
+  ```
 
 6.
-```js
-let x = 7;
-x = x % 3;
-console.log(x);    // 1
-```
+  ```js
+  let x = 7;
+  x = x % 3;
+  console.log(x);    // 1
+  ```
 
 
 
