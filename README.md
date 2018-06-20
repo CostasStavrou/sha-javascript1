@@ -37,24 +37,29 @@ would be the new value of `x`?
 
 **Answers**
 
-1. ```js
+1.
+```js
 let x = 34;
 ```
 
-2. ```js
+2.
+```js
 alert(Math.round(7.25));
 ```
 
-3. ```js
+3.
+```js
 let colors = ["red", "green", "blue"];
 ```
 
-4. ```js
+4.
+```js
 let colors = ["red", "green", "blue"];
 alert(colors.length);
 ```
 
-5. ```js
+5.
+```js
 let x = 10;
 let y = "EcmaScript";
 
@@ -63,7 +68,8 @@ if (typeof(x) === typeof(y)) {
 }
 ```
 
-6. ```js
+6.
+```js
 let x = 7;
 x = x % 3;
 console.log(x);    // 1
