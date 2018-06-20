@@ -38,36 +38,23 @@ would be the new value of `x`?
 **Answers**
 
 1. ```js
-// Declare a variable x and initialize it with an integer.
 let x = 34;
 ```
 
 2. ```js
-// How do you round the number 7.25, to the nearest whole number?
 alert(Math.round(7.25));
 ```
 
 3. ```js
-// Create a array called colors with the strings red, green and blue inside.
 let colors = ["red", "green", "blue"];
 ```
 
 4. ```js
-// How can you find the length of the object you just created?
 let colors = ["red", "green", "blue"];
 alert(colors.length);
 ```
 
 5. ```js
-/*
-Write a program that checks the types of two variables and prints
-out SAME TYPE if they are the same type. For example:
-
-let x = 9; let y = 'Hello';
-if () { console.log('SAME TYPE'); }
-
-*/
-
 let x = 10;
 let y = "EcmaScript";
 
@@ -77,11 +64,6 @@ if (typeof(x) === typeof(y)) {
 ```
 
 6. ```js
-/*
-If x equals 7, and the only other statement is x = x % 3, what would
-be the new value of x?
-*/
-
 let x = 7;
 x = x % 3;
 console.log(x);    // 1
